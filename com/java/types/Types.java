@@ -37,7 +37,6 @@ class PrimitiveTypes {
         System.out.println("Floating Types are: " + floatingTypes);
         System.out.println("float range: " + floatRange);
         System.out.println("double range: " + doubleRange);
-
     }
 }
 
