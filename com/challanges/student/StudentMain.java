@@ -17,7 +17,7 @@ class Student {
             return 'A';
         }else return 'B';
     }
-    public String datails() {
+    public String details() {
         return "Roll No:" + rollNumber + "\n" + "Name:" + name + "\n" + "Course:" + course + "\n";
     }
 }
@@ -25,5 +25,14 @@ class Student {
 public class StudentMain {
     public static void main(String[] args) {
         Student s1 = new Student();
+        s1.name = " Mareedu Saibabu";
+        s1.rollNumber = 5;
+        s1.course = " BTech";
+        s1.m1 = 12;
+        s1.m2 = 14;
+        s1.m3 = 80;
+
+        System.out.println(s1.details());
+        System.out.println("Grade is: " + s1.grade());
     }
 }
